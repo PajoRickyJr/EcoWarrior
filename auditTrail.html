@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audit Trail Section</title>
+    <link rel="stylesheet" href="auditTrail.css?v=1.4">
+    <link rel="icon" href="data:," />
+</head>
+<body>
+    <h1>Audit Trail</h1>
+    <button class="exit-button" onclick="window.location.href='adminDashboard.html'">Back to Dashboard</button>
+    <table id="auditTrailTable">
+        <thead>
+            <tr>
+                <th>Timestamp</th>
+                <th>Action</th>
+                <th>Location</th>
+                <th>Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="4">Loading audit trail data...</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <script type="module" src="auditTrail.js?v=1.4"></script>
+</body>
+</html>

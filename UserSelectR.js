@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // Redirect to UserContent.html after a short delay
       setTimeout(() => {
-        window.location.href = "UserContent.html";
+        window.location.href = "userContent.html";
       }, 2000);
     } catch (error) {
       console.error("Error registering user:", error);
